@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:background="#bbffbb"
+    tools:context="r_studyproject.tmdbapp.RootFragment">
+
+    <Button
+        android:id="@+id/openRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008800"
+        android:text="Поиск случайного"/>
+
+    <Button
+        android:id="@+id/openTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008800"
+        android:textColor="@color/white"
+        android:text="Самые популярные"/>
+
+</LinearLayout>
