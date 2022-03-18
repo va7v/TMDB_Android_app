@@ -21,10 +21,22 @@
         android:id="@+id/randomFragment"
         android:name="r_studyproject.tmdbapp.RandomFragment"
         android:label="fragment_random_film"
-        tools:layout="@layout/fragment_random_film" />
+        tools:layout="@layout/fragment_random_film" >
+        <action
+            android:id="@+id/action_randomFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/topFragment"
         android:name="r_studyproject.tmdbapp.TopFragment"
         android:label="fragment_top_movies"
-        tools:layout="@layout/fragment_top_movies" />
+        tools:layout="@layout/fragment_top_movies" >
+        <action
+            android:id="@+id/action_topFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="r_studyproject.tmdbapp.DetailsFragment"
+        android:label="DetailsFragment" />
 </navigation>
