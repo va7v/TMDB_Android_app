@@ -17,10 +17,14 @@ class RootFragment : Fragment(R.layout.fragment_root) {
             openBox()
         }
         binding.openTop.setOnClickListener {
+            openTop()
 
         }
     }
     private fun openBox() {
         findNavController().navigate(R.id.action_rootFragment_to_randomFragment)
+    }
+    private fun openTop() {
+        findNavController().navigate(R.id.action_rootFragment_to_topFragment)
     }
 }

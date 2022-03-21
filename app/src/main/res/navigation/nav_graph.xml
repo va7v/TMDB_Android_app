@@ -21,7 +21,7 @@
         android:id="@+id/randomFragment"
         android:name="r_studyproject.tmdbapp.RandomFragment"
         android:label="fragment_random_film"
-        tools:layout="@layout/fragment_random_film" >
+        tools:layout="@layout/fragment_random_movie" >
         <action
             android:id="@+id/action_randomFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
